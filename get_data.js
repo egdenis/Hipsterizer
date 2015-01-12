@@ -7,7 +7,7 @@
 </script>
 
 var script = document.createElement("script");
-script.src = "//connect.soundcloud.com/sdk.js";
+script.src = "http://connect.soundcloud.com/sdk.js";
 document.body.appendChild(script);
 
 SC.initialize({
